@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<title>ATKRITUMI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+<div id="scoreBoard">
+  <p>Laiks: <span id="timeLeft">120</span> sekundes</p>
+  <p>Punkti: <span id="currentScore">0</span></p>
+</div>
+<button id="startButton">Sākt Spēli</button>
+<canvas id="gameCanvas" width="800" height="600"></canvas>
+<script src="spele.js"></script>
+
+<div id="fakti">
+  <p>1.fakts <span id="Fact1">Bloķēts</span> </p>
+  <p>2.fakts <span id="Fact2">Bloķēts</span></p>
+  <p>3.fakts <span id="Fact3">Bloķēts</span></p>
+  <p>4.fakts <span id="Fact4">Bloķēts</span></p>
+  <p>5.fakts <span id="Fact5">Bloķēts</span></p>
+  <p>6.fakts <span id="Fact6">Bloķēts</span></p>
+</div>
+
+<div>
+    <p>Noteikumi:</p>
+    <p>Tiek dotas 90 sekundes</p>
+    <p>Ja tiek sakrāti 20 punkti spēle tiek uzvarēta, ja mazāk par 0 vai beidzies laiks spēle beidzās</p>
+    <p>+1 punkts par atkritumiem, -1 punkts par toksiskiem atkritumiem</p>
+    <p>Pārvietošanās ar bultiņām</p>
+  </div>
+
+
+  <script>
+    window.addEventListener('keydown', function(event) {
+      if (event.key === 'ArrowUp' || event.key === 'ArrowDown' || event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+        event.preventDefault();
+      }
+    });
+  </script>
+
+</body>
+</html>

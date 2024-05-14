@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+
+
+  #gameCanvas {
+    border: 1px solid #000;
+    background-color: #e0e0e0;
+  }
+
+
+  #scoreBoard {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #scoreBoard p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  #timeLeft, #currentScore {
+    font-weight: bold;
+  }
+
+
+  #startButton {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  #startButton:hover {
+    background-color: #45a049;
+  }
+
+
+  #fakti {
+    margin-bottom: 20px;
+  }
+
+  #fakti p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+
+  .noteikumi {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .noteikumi p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  canvas {
+    border: 1px solid #000;
+  }
